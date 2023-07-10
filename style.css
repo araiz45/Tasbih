@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: rgb(0, 0, 0);
+}
+
+/* .btn{
+    width: 100px;
+    background-color: thistle;
+    height: 100px;
+} */
+
+.lower-btn{
+    display: flex;
+    gap: 10px;
+}
+
+.container-one{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+#number{
+    color : rgb(255, 255, 255);
+    font-size: 4rem;
+    text-align: center;
+    border: none;
+    outline: none;
+
+}
+
+#select{
+    color: white;
+    background: rgb(0, 0, 255)
+}
